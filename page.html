@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Will You Marry Me?</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="java.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div id="mainPage">
+        <h1>💖 Will You Marry Me? 💖</h1>
+        <img id="memeImage" src="https://i.imgflip.com/30b1gx.jpg" alt="meme" />
+        <p id="message">Think carefully before pressing no 😭</p>
+        <p id="personnale-message">(bech nahbet 3ala rokba w nos ama zidni chwaya bark)</p>
+
+        <div class="buttons">
+            <button type="button" id="yesBtn">YES 💍</button>
+            <button type="button" id="noBtn">NO 😈</button>
+        </div>
+      </div>
+
+      <div id="quizPage" class="hidden">
+        <h1>😤 You reached the challenge!</h1>
+        <p id="quizQuestion"></p>
+        <div id="wrongOptions"></div>
+      </div>
+
+      <div id="finalPage" class="hidden">
+        <h1>❤️ You survived everything ❤️</h1>
+        <p>Now answer correctly...</p>
+        <h2 style="margin-top: 20px">Will You Marry Me? 💍</h2>
+        <div class="buttons">
+          <button onclick="celebrate()">YES MY LOVE ❤️</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
